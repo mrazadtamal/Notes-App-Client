@@ -201,14 +201,7 @@ export default function PrimarySearchAppBar() {
           >
             MUI
           </Typography>
-          <Typography
-            variant="h6"
-            noWrap
-            component="div"
-            sx={{ ml: 2, display: { xs: "none", sm: "block" } }}
-          >
-            Home
-          </Typography>
+
           <Search>
             <SearchIconWrapper>
               <SearchIcon />
@@ -218,14 +211,6 @@ export default function PrimarySearchAppBar() {
               inputProps={{ "aria-label": "search" }}
             />
           </Search>
-          <Typography
-            variant="h6"
-            noWrap
-            component="div"
-            sx={{ ml: 2, display: { xs: "none", sm: "block" } }}
-          >
-            Login
-          </Typography>
 
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: "none", md: "flex" } }}>
