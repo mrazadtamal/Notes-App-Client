@@ -55,7 +55,7 @@ function MainScreen() {
           md={7}
           sx={{
             backgroundImage:
-              "url(https://res.cloudinary.com/abidazad/image/upload/v1641320896/pexels-min-an-1131458_h4xeil.jpg)",
+              "url(https://res.cloudinary.com/abidazad/image/upload/v1636986597/pexels-jess-bailey-designs-768474_pcnzyw.jpg)",
             backgroundRepeat: "no-repeat",
             backgroundColor: (t) =>
               t.palette.mode === "light"
