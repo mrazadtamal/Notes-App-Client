@@ -1,9 +1,12 @@
 import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <h1>azad</h1>
+      <Navbar />
+      <Header />
       <Footer />
     </div>
   );

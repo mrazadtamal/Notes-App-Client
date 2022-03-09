@@ -5,14 +5,6 @@ import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 // import Link from "@mui/material/Link";
 
-function Copyright() {
-  return (
-    <Typography variant="body2" color="text.secondary">
-      {"Copyright © azad 2022  "}
-    </Typography>
-  );
-}
-
 const Footer = () => {
   return (
     <>
@@ -47,10 +39,12 @@ const Footer = () => {
           }}
         >
           <Container maxWidth="sm">
-            <Typography variant="body1">
+            {/* <Typography variant="body1">
               My sticky footer can be found here.
+            </Typography> */}
+            <Typography variant="body2" color="text.secondary">
+              Copyright © azad 2022
             </Typography>
-            <Copyright />
           </Container>
         </Box>
       </Box>
