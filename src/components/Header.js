@@ -1,16 +1,10 @@
 import React from "react";
+import "./Header.css";
 
 const Header = () => {
   return (
-    <div>
+    <div className="header">
       <h1>Header</h1>
-      <img
-        style={{ width: "100%" }}
-        alt=""
-        src={
-          "https://res.cloudinary.com/abidazad/image/upload/v1646854144/pexels-tara-winstead-8385407_1_ashbtz.jpg"
-        }
-      />
     </div>
   );
 };
