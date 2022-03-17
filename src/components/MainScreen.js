@@ -20,14 +20,7 @@ function Copyright(props) {
       color="text.secondary"
       align="center"
       {...props}
-    >
-      {"Copyright © "}
-      <Link color="inherit" href="">
-        Your Website
-      </Link>{" "}
-      {new Date().getFullYear()}
-      {"."}
-    </Typography>
+    ></Typography>
   );
 }
 
